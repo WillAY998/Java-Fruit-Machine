@@ -1,6 +1,6 @@
 import java.util.*;
-class FruitMachineV2 {
-  //We define the method which will called to determine if a a set of numbers is non-sequential.
+public class FruitMachine {
+  //We define the method which will be called to determine if a set of numbers is non-sequential.
   static boolean NonSequential(int r1, int r2, int r3) {
     int Mean = (r1 + r2+ r3)/3;
     return ((r1 == Mean || r2 == Mean || r3 == Mean ) && (r1 == Mean + 1 || r2 == Mean + 1 || r3 == Mean + 1) && (r1 == Mean -1 || r2 == Mean -1 || r3 == Mean -1));

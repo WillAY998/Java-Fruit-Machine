@@ -1,4 +1,4 @@
-u# Java-Fruit-Machine
+Java-Fruit-Machine
 A basic emulation of a casino slot machine / fruit machine using java.
 This program allows a user a to generate 3 random numbers whereby each individual number represents a 'reel' on the machine.
 Following a play, the number set is tested against a defined parameters to determine if the user has won or lost.
